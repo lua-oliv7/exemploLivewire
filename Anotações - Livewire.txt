@@ -1,0 +1,34 @@
+Livewire
+
+- É uma das possibilidades de front-end do laravel
+- Precisamos baixar o pacote
+- Componentes livewire
+
+Pasta
+- Resources
+  -Views
+    -welcome.blade.php
+
+Criar layout: php artisan livewire:layout
+
+CRUD de Tarefas
+
+Criar componente: php artisan make:livewire tarefa.Create
+- Lógica: Na pasta Livewire\Tarefa -> Create.php
+- Layout: Na pasta components\layout -> app.blade.php
+- Rota: Na pasta routes -> web.php
+
+* Rotas nomeadas
+- Para quando mudarmos de servidor não ocorra problemas com
+a rota
+
+
+
+
+
+
+
+
+
+
+
